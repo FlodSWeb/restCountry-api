@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background: #141414;
+}
+h1 {
+  color: aliceblue;
+  font-size: 5em;
+  text-align: center;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.countryContainer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 2px solid #989898;
+  border-radius: 3px;
+  background: #262626;
+  color: aliceblue;
+  padding: 10px;
+  width: 300px;
+  font-size: 1.1em;
+  margin: 25px 10px;
+}
+
+img {
+  border-radius: 4px;
+  border: 1px solid black;
+  height: 120px;
+  width: 200px;
+}
